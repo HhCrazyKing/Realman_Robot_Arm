@@ -75,7 +75,7 @@ class DINOXObjectDetector:
         for class_name, confidence in zip(self.class_names, self.confidences):
             class_counts[class_name] += 1
             idx = class_counts[class_name]
-            self.labels.append(f"{class_name}{idx}")
+            self.labels.append(f"{class_name} {idx}")
         # 输出识别结果
         print(f"检测到 {len(self.boxes)} 个物体")
         for i, (box, mask) in enumerate(zip(self.boxes, self.masks)):

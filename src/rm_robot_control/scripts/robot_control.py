@@ -100,6 +100,7 @@ class RobotArmController:
             print("\nmovej_p motion succeeded\n")
         else:
             print("\nmovej_p motion failed, Error code: ", movej_p_result, "\n")
+            sys.exit(1)
 
     def movel(self, pose, v=20, r=0, connect=0, block=1):
         """
