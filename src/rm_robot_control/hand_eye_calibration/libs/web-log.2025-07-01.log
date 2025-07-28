@@ -1,0 +1,751 @@
+2025-07-01 15:37:36 - libs.auxiliary - INFO: command:['ping', '-c', '1', '192.168.1.18']
+2025-07-01 15:37:36 - __main__ - INFO: robot_ip:192.168.1.18
+2025-07-01 15:37:37 - __main__ - INFO: response:{"change_work_frame":true,"command":"set_change_work_frame"}
+
+2025-07-01 15:37:37 - __main__ - INFO: 开始手眼标定程序，当前程序版号V1.0.0
+2025-07-01 15:38:05 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-75257,-42330,-76765,54922,-47576,104081],"pose":[200458,-379131,215002,2871,759,2451],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:38:05 - __main__ - INFO: 获取状态：成功，当前位姿为[0.200458, -0.379131, 0.215002, 2.871, 0.759, 2.451]
+2025-07-01 15:38:05 - __main__ - INFO: ===采集第1次数据！
+2025-07-01 15:39:13 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-75384,-111026,-103237,-48799,103175,113911],"pose":[171518,-189713,-52748,-1833,844,-2246],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:39:13 - __main__ - INFO: 获取状态：成功，当前位姿为[0.171518, -0.189713, -0.052748, -1.833, 0.844, -2.246]
+2025-07-01 15:39:13 - __main__ - INFO: ===采集第2次数据！
+2025-07-01 15:39:39 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-13958,-50517,-121202,43342,48810,124734],"pose":[300579,-160504,103117,-2322,576,-2967],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:39:39 - __main__ - INFO: 获取状态：成功，当前位姿为[0.300579, -0.160504, 0.103117, -2.322, 0.576, -2.967]
+2025-07-01 15:39:39 - __main__ - INFO: ===采集第3次数据！
+2025-07-01 15:39:46 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-36629,-28716,-108028,39957,-2014,124715],"pose":[302416,-220303,191758,-2930,702,2856],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:39:46 - __main__ - INFO: 获取状态：成功，当前位姿为[0.302416, -0.220303, 0.191758, -2.93, 0.702, 2.856]
+2025-07-01 15:39:46 - __main__ - INFO: ===采集第4次数据！
+2025-07-01 15:39:51 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-61729,-28955,-90411,39826,-34958,124689],"pose":[235539,-313085,234903,3017,657,2498],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:39:51 - __main__ - INFO: 获取状态：成功，当前位姿为[0.235539, -0.313085, 0.234903, 3.017, 0.657, 2.498]
+2025-07-01 15:39:51 - __main__ - INFO: ===采集第5次数据！
+2025-07-01 15:39:57 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-71641,-57994,-50586,48122,-58271,124755],"pose":[244081,-411396,195502,2679,662,2316],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:39:57 - __main__ - INFO: 获取状态：成功，当前位姿为[0.244081, -0.411396, 0.195502, 2.679, 0.662, 2.316]
+2025-07-01 15:39:57 - __main__ - INFO: ===采集第6次数据！
+2025-07-01 15:40:04 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-13053,-28980,-120434,70687,26389,124782],"pose":[301095,-139217,171404,-2910,773,2614],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:40:04 - __main__ - INFO: 获取状态：成功，当前位姿为[0.301095, -0.139217, 0.171404, -2.91, 0.773, 2.614]
+2025-07-01 15:40:04 - __main__ - INFO: ===采集第7次数据！
+2025-07-01 15:40:14 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-82923,-27298,-107674,57403,-52716,80120],"pose":[142493,-270725,201673,2844,699,2635],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:40:14 - __main__ - INFO: 获取状态：成功，当前位姿为[0.142493, -0.270725, 0.201673, 2.844, 0.699, 2.635]
+2025-07-01 15:40:14 - __main__ - INFO: ===采集第8次数据！
+2025-07-01 15:40:21 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-43356,-20880,-115937,102538,-141,83892],"pose":[251353,-236795,209072,3034,748,2231],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:40:21 - __main__ - INFO: 获取状态：成功，当前位姿为[0.251353, -0.236795, 0.209072, 3.034, 0.748, 2.231]
+2025-07-01 15:40:21 - __main__ - INFO: ===采集第9次数据！
+2025-07-01 15:40:47 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-75723,-12237,-111071,48294,-49769,10885],"pose":[156071,-240757,249759,-2484,177,-1976],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:40:47 - __main__ - INFO: 获取状态：成功，当前位姿为[0.156071, -0.240757, 0.249759, -2.484, 0.177, -1.976]
+2025-07-01 15:40:47 - __main__ - INFO: ===采集第10次数据！
+2025-07-01 15:41:02 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-83763,-26684,-132242,89918,-39311,9194],"pose":[127069,-222696,156846,-2795,695,-2932],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:41:02 - __main__ - INFO: 获取状态：成功，当前位姿为[0.127069, -0.222696, 0.156846, -2.795, 0.695, -2.932]
+2025-07-01 15:41:02 - __main__ - INFO: ===采集第11次数据！
+2025-07-01 15:41:09 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-73859,-51369,-126081,120068,-65853,9828],"pose":[201755,-239225,127928,2843,1152,2557],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:41:09 - __main__ - INFO: 获取状态：成功，当前位姿为[0.201755, -0.239225, 0.127928, 2.843, 1.152, 2.557]
+2025-07-01 15:41:09 - __main__ - INFO: ===采集第12次数据！
+2025-07-01 15:41:29 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/1.jpg
+2025-07-01 15:41:30 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/2.jpg
+2025-07-01 15:41:30 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/3.jpg
+2025-07-01 15:41:30 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/4.jpg
+2025-07-01 15:41:30 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/5.jpg
+2025-07-01 15:41:30 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/6.jpg
+2025-07-01 15:41:30 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/7.jpg
+2025-07-01 15:41:30 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/8.jpg
+2025-07-01 15:41:30 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/9.jpg
+2025-07-01 15:41:30 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/10.jpg
+2025-07-01 15:41:30 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/11.jpg
+2025-07-01 15:41:30 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/12.jpg
+2025-07-01 15:41:30 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/13.jpg
+2025-07-01 15:41:30 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/14.jpg
+2025-07-01 15:41:30 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/15.jpg
+2025-07-01 15:41:30 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/16.jpg
+2025-07-01 15:41:30 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/17.jpg
+2025-07-01 15:41:31 - __main__ - INFO: 旋转矩阵是:
+ [[ 0.50117048 -0.8653173   0.00735686]
+ [ 0.86448334  0.5002712  -0.04896208]
+ [ 0.03868731  0.03089823  0.99877354]]
+2025-07-01 15:41:31 - __main__ - INFO: 平移向量是:
+ [[ 0.08335923]
+ [-0.0377595 ]
+ [ 0.02720036]]
+2025-07-01 15:41:31 - __main__ - INFO: 四元数是：
+ [ 0.02305286 -0.009044    0.49933252  0.86605647]
+2025-07-01 15:42:07 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/1.jpg
+2025-07-01 15:42:07 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/2.jpg
+2025-07-01 15:42:08 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/3.jpg
+2025-07-01 15:42:08 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/4.jpg
+2025-07-01 15:42:08 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/5.jpg
+2025-07-01 15:42:08 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/6.jpg
+2025-07-01 15:42:08 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/7.jpg
+2025-07-01 15:42:09 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/8.jpg
+2025-07-01 15:42:09 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/9.jpg
+2025-07-01 15:42:09 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/10.jpg
+2025-07-01 15:42:09 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/11.jpg
+2025-07-01 15:42:09 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/12.jpg
+2025-07-01 15:42:09 - __main__ - INFO: 旋转矩阵是:
+ [[ 0.7270089  -0.68494526 -0.04804216]
+ [ 0.63839257  0.70004178 -0.31999443]
+ [ 0.25281019  0.20196904  0.94620057]]
+2025-07-01 15:42:09 - __main__ - INFO: 平移向量是:
+ [[0.09132648]
+ [0.01807995]
+ [0.18602794]]
+2025-07-01 15:42:09 - __main__ - INFO: 四元数是：
+ [ 0.14209728 -0.08190286  0.36026028  0.91832065]
+2025-07-01 15:44:21 - libs.auxiliary - INFO: command:['ping', '-c', '1', '192.168.1.18']
+2025-07-01 15:44:21 - __main__ - INFO: robot_ip:192.168.1.18
+2025-07-01 15:44:21 - __main__ - INFO: response:{"change_work_frame":true,"command":"set_change_work_frame"}
+
+2025-07-01 15:44:21 - __main__ - INFO: 开始手眼标定程序，当前程序版号V1.0.0
+2025-07-01 15:45:39 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-62258,-76055,-130100,156802,-109883,-64990],"pose":[194878,-242252,101487,-1663,609,-2329],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:45:39 - __main__ - INFO: 获取状态：成功，当前位姿为[0.194878, -0.242252, 0.101487, -1.663, 0.609, -2.329]
+2025-07-01 15:45:39 - __main__ - INFO: ===采集第1次数据！
+2025-07-01 15:45:49 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-57269,-31633,-130411,158702,-51395,-34211],"pose":[223224,-262674,199189,-2113,775,-2659],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:45:49 - __main__ - INFO: 获取状态：成功，当前位姿为[0.223224, -0.262674, 0.199189, -2.113, 0.775, -2.659]
+2025-07-01 15:45:49 - __main__ - INFO: ===采集第2次数据！
+2025-07-01 15:46:16 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-49626,-25551,-103069,166010,-12242,-23965],"pose":[277238,-313303,267976,-2276,805,-2930],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:46:16 - __main__ - INFO: 获取状态：成功，当前位姿为[0.277238, -0.313303, 0.267976, -2.276, 0.805, -2.93]
+2025-07-01 15:46:16 - __main__ - INFO: ===采集第3次数据！
+2025-07-01 15:46:27 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-47907,-7576,-92249,175499,25068,-23855],"pose":[246008,-280327,366420,-2528,798,3041],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:46:27 - __main__ - INFO: 获取状态：成功，当前位姿为[0.246008, -0.280327, 0.36642, -2.528, 0.798, 3.041]
+2025-07-01 15:46:27 - __main__ - INFO: ===采集第4次数据！
+2025-07-01 15:47:49 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-68310,-37224,-56829,-135009,46142,-73857],"pose":[250038,-406294,339606,-2758,925,3077],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:47:49 - __main__ - INFO: 获取状态：成功，当前位姿为[0.250038, -0.406294, 0.339606, -2.758, 0.925, 3.077]
+2025-07-01 15:47:49 - __main__ - INFO: ===采集第5次数据！
+2025-07-01 15:48:01 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-40409,-23977,-106895,-142982,-16703,-72855],"pose":[289374,-282989,263923,-2219,722,-2935],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:48:01 - __main__ - INFO: 获取状态：成功，当前位姿为[0.289374, -0.282989, 0.263923, -2.219, 0.722, -2.935]
+2025-07-01 15:48:01 - __main__ - INFO: ===采集第6次数据！
+2025-07-01 15:49:27 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/1.jpg
+2025-07-01 15:49:27 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/2.jpg
+2025-07-01 15:49:27 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/3.jpg
+2025-07-01 15:49:27 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/4.jpg
+2025-07-01 15:49:27 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/5.jpg
+2025-07-01 15:49:27 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/6.jpg
+2025-07-01 15:49:28 - __main__ - INFO: 旋转矩阵是:
+ [[ 0.45653564 -0.88912755 -0.0320531 ]
+ [ 0.88928006  0.45490781  0.04732714]
+ [-0.02749866 -0.05011071  0.99836503]]
+2025-07-01 15:49:28 - __main__ - INFO: 平移向量是:
+ [[ 0.0577133 ]
+ [-0.02610271]
+ [ 0.03231251]]
+2025-07-01 15:49:28 - __main__ - INFO: 四元数是：
+ [-0.02856048 -0.00133498  0.52127766  0.85290804]
+2025-07-01 15:54:35 - libs.auxiliary - INFO: command:['ping', '-c', '1', '192.168.1.18']
+2025-07-01 15:54:35 - __main__ - INFO: robot_ip:192.168.1.18
+2025-07-01 15:54:35 - __main__ - INFO: response:{"change_work_frame":true,"command":"set_change_work_frame"}
+
+2025-07-01 15:54:35 - __main__ - INFO: 开始手眼标定程序，当前程序版号V1.0.0
+2025-07-01 15:54:57 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-38850,-101634,-92789,-171912,-113290,-64837],"pose":[264398,-239712,10708,-1400,398,-2313],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:54:57 - __main__ - INFO: 获取状态：成功，当前位姿为[0.264398, -0.239712, 0.010708, -1.4, 0.398, -2.313]
+2025-07-01 15:54:57 - __main__ - INFO: ===采集第1次数据！
+2025-07-01 15:55:07 - __main__ - INFO: response:{"arm_state":{"arm_err":0,"joint":[-38844,-101633,-92787,-171912,-113292,-64838],"pose":[264429,-239692,10722,-1400,398,-2313],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:55:07 - __main__ - INFO: 获取状态：成功，当前位姿为[0.264429, -0.239692, 0.010722, -1.4, 0.398, -2.313]
+2025-07-01 15:55:07 - __main__ - INFO: ===采集第2次数据！
+2025-07-01 15:55:25 - libs.auxiliary - INFO: command:['ping', '-c', '1', '192.168.1.18']
+2025-07-01 15:55:25 - __main__ - INFO: robot_ip:192.168.1.18
+2025-07-01 15:55:25 - __main__ - INFO: response:{"change_work_frame":true,"command":"set_change_work_frame"}
+
+2025-07-01 15:55:25 - __main__ - INFO: 开始手眼标定程序，当前程序版号V1.0.0
+2025-07-01 15:55:29 - __main__ - INFO: response:{"arm_state":{"arm_err":0,"joint":[-38846,-101633,-92786,-171911,-113289,-64837],"pose":[264425,-239705,10718,-1400,398,-2313],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:55:29 - __main__ - INFO: 获取状态：成功，当前位姿为[0.264425, -0.239705, 0.010718, -1.4, 0.398, -2.313]
+2025-07-01 15:55:29 - __main__ - INFO: ===采集第1次数据！
+2025-07-01 15:55:36 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-38615,-85084,-117035,-164763,-110264,15449],"pose":[234739,-238358,64670,1688,1399,763],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:55:36 - __main__ - INFO: 获取状态：成功，当前位姿为[0.234739, -0.238358, 0.06467, 1.688, 1.399, 0.763]
+2025-07-01 15:55:36 - __main__ - INFO: ===采集第2次数据！
+2025-07-01 15:55:58 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-46491,-75849,-129475,-167008,-115004,25820],"pose":[193888,-251957,113964,1558,1216,542],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:55:58 - __main__ - INFO: 获取状态：成功，当前位姿为[0.193888, -0.251957, 0.113964, 1.558, 1.216, 0.542]
+2025-07-01 15:55:58 - __main__ - INFO: ===采集第3次数据！
+2025-07-01 15:56:08 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-25522,-52515,-132201,-159267,-82746,-45973],"pose":[276335,-194670,154414,-1843,720,-2565],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:56:08 - __main__ - INFO: 获取状态：成功，当前位姿为[0.276335, -0.19467, 0.154414, -1.843, 0.72, -2.565]
+2025-07-01 15:56:08 - __main__ - INFO: ===采集第4次数据！
+2025-07-01 15:56:14 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-35746,-17068,-132190,-155860,-40241,-45847],"pose":[240563,-225634,247550,-2180,902,-2982],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:56:14 - __main__ - INFO: 获取状态：成功，当前位姿为[0.240563, -0.225634, 0.24755, -2.18, 0.902, -2.982]
+2025-07-01 15:56:14 - __main__ - INFO: ===采集第5次数据！
+2025-07-01 15:56:18 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-59893,-9890,-96234,-153393,28693,-46086],"pose":[211735,-296064,328620,-2919,833,2681],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:56:18 - __main__ - INFO: 获取状态：成功，当前位姿为[0.211735, -0.296064, 0.32862, -2.919, 0.833, 2.681]
+2025-07-01 15:56:18 - __main__ - INFO: ===采集第6次数据！
+2025-07-01 15:56:22 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-69860,-30474,-58463,-145166,54725,-51873],"pose":[220303,-382402,358748,-3092,849,2656],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:56:22 - __main__ - INFO: 获取状态：成功，当前位姿为[0.220303, -0.382402, 0.358748, -3.092, 0.849, 2.656]
+2025-07-01 15:56:22 - __main__ - INFO: ===采集第7次数据！
+2025-07-01 15:56:27 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-74661,-47533,-34821,-138197,67149,-53651],"pose":[220807,-430683,339855,3043,886,2623],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:56:27 - __main__ - INFO: 获取状态：成功，当前位姿为[0.220807, -0.430683, 0.339855, 3.043, 0.886, 2.623]
+2025-07-01 15:56:27 - __main__ - INFO: ===采集第8次数据！
+2025-07-01 15:56:30 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-79883,-51723,-34837,-134483,64958,-57156],"pose":[187743,-458996,313619,2991,908,2509],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:56:30 - __main__ - INFO: 获取状态：成功，当前位姿为[0.187743, -0.458996, 0.313619, 2.991, 0.908, 2.509]
+2025-07-01 15:56:30 - __main__ - INFO: ===采集第9次数据！
+2025-07-01 15:56:34 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-89902,-49229,-43269,-126923,73762,-69483],"pose":[124485,-444444,303663,2873,914,2489],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:56:34 - __main__ - INFO: 获取状态：成功，当前位姿为[0.124485, -0.444444, 0.303663, 2.873, 0.914, 2.489]
+2025-07-01 15:56:34 - __main__ - INFO: ===采集第10次数据！
+2025-07-01 15:56:43 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-63947,16445,-119682,-150595,21953,-70304],"pose":[143173,-225495,352600,-2385,756,-3098],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:56:43 - __main__ - INFO: 获取状态：成功，当前位姿为[0.143173, -0.225495, 0.3526, -2.385, 0.756, -3.098]
+2025-07-01 15:56:43 - __main__ - INFO: ===采集第11次数据！
+2025-07-01 15:56:51 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-38643,-23576,-130734,-163050,-45656,-56373],"pose":[245854,-239594,232153,-2010,672,-2753],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:56:51 - __main__ - INFO: 获取状态：成功，当前位姿为[0.245854, -0.239594, 0.232153, -2.01, 0.672, -2.753]
+2025-07-01 15:56:51 - __main__ - INFO: ===采集第12次数据！
+2025-07-01 15:57:02 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-85495,-40281,-42003,-136496,76011,-68008],"pose":[140916,-417681,356790,-3101,842,2809],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 15:57:02 - __main__ - INFO: 获取状态：成功，当前位姿为[0.140916, -0.417681, 0.35679, -3.101, 0.842, 2.809]
+2025-07-01 15:57:02 - __main__ - INFO: ===采集第13次数据！
+2025-07-01 15:57:14 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/1.jpg
+2025-07-01 15:57:14 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/2.jpg
+2025-07-01 15:57:14 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/3.jpg
+2025-07-01 15:57:14 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/4.jpg
+2025-07-01 15:57:14 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/5.jpg
+2025-07-01 15:57:14 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/6.jpg
+2025-07-01 15:57:14 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/7.jpg
+2025-07-01 15:57:14 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/8.jpg
+2025-07-01 15:57:14 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/9.jpg
+2025-07-01 15:57:14 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/10.jpg
+2025-07-01 15:57:14 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/11.jpg
+2025-07-01 15:57:14 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/12.jpg
+2025-07-01 15:57:14 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data04/13.jpg
+2025-07-01 15:57:15 - __main__ - INFO: 旋转矩阵是:
+ [[ 0.43996779 -0.89749391 -0.03054549]
+ [ 0.89724922  0.43793585  0.05617859]
+ [-0.03704298 -0.05212369  0.99795338]]
+2025-07-01 15:57:15 - __main__ - INFO: 平移向量是:
+ [[ 0.07632465]
+ [-0.03395472]
+ [ 0.02552018]]
+2025-07-01 15:57:15 - __main__ - INFO: 四元数是：
+ [-0.03193184  0.00191572  0.52916201  0.8479176 ]
+2025-07-01 16:00:55 - libs.auxiliary - INFO: command:['ping', '-c', '1', '192.168.1.18']
+2025-07-01 16:00:55 - __main__ - INFO: robot_ip:192.168.1.18
+2025-07-01 16:00:55 - __main__ - INFO: response:{"change_work_frame":true,"command":"set_change_work_frame"}
+
+2025-07-01 16:00:55 - __main__ - INFO: 开始手眼标定程序，当前程序版号V1.0.0
+2025-07-01 16:01:03 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-80111,-33957,-69337,-112105,57814,-100906],"pose":[196501,-391190,334838,-2764,1087,-3065],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:01:03 - __main__ - INFO: 获取状态：成功，当前位姿为[0.196501, -0.39119, 0.334838, -2.764, 1.087, -3.065]
+2025-07-01 16:01:03 - __main__ - INFO: ===采集第1次数据！
+2025-07-01 16:01:09 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-66887,-3571,-106245,-117475,34936,-94904],"pose":[202273,-265288,339935,-2725,957,3109],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:01:09 - __main__ - INFO: 获取状态：成功，当前位姿为[0.202273, -0.265288, 0.339935, -2.725, 0.957, 3.109]
+2025-07-01 16:01:09 - __main__ - INFO: ===采集第2次数据！
+2025-07-01 16:01:14 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-29148,-8631,-118937,-112855,-17012,-94534],"pose":[274218,-202691,286094,-2320,762,-2966],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:01:14 - __main__ - INFO: 获取状态：成功，当前位姿为[0.274218, -0.202691, 0.286094, -2.32, 0.762, -2.966]
+2025-07-01 16:01:14 - __main__ - INFO: ===采集第3次数据！
+2025-07-01 16:01:19 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-18757,-26125,-117265,-110771,-39887,-80535],"pose":[291951,-201225,224347,-2265,722,3128],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:01:19 - __main__ - INFO: 获取状态：成功，当前位姿为[0.291951, -0.201225, 0.224347, -2.265, 0.722, 3.128]
+2025-07-01 16:01:19 - __main__ - INFO: ===采集第4次数据！
+2025-07-01 16:01:40 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-36190,-71776,-119425,-163608,-93302,-49634],"pose":[260188,-246635,93676,-1733,642,-2588],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:01:40 - __main__ - INFO: 获取状态：成功，当前位姿为[0.260188, -0.246635, 0.093676, -1.733, 0.642, -2.588]
+2025-07-01 16:01:40 - __main__ - INFO: ===采集第5次数据！
+2025-07-01 16:01:47 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-27180,-87705,-126488,-151103,-118914,-44384],"pose":[221280,-190276,72092,-1606,520,-2499],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:01:47 - __main__ - INFO: 获取状态：成功，当前位姿为[0.22128, -0.190276, 0.072092, -1.606, 0.52, -2.499]
+2025-07-01 16:01:47 - __main__ - INFO: ===采集第6次数据！
+2025-07-01 16:01:53 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-25309,-37698,-132467,-158045,-72127,-44601],"pose":[283804,-197664,211703,-1800,843,-2554],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:01:53 - __main__ - INFO: 获取状态：成功，当前位姿为[0.283804, -0.197664, 0.211703, -1.8, 0.843, -2.554]
+2025-07-01 16:01:53 - __main__ - INFO: ===采集第7次数据！
+2025-07-01 16:02:01 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-53138,24723,-131889,-160985,14375,-54257],"pose":[149370,-177481,328814,-2398,805,-3069],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:02:01 - __main__ - INFO: 获取状态：成功，当前位姿为[0.14937, -0.177481, 0.328814, -2.398, 0.805, -3.069]
+2025-07-01 16:02:01 - __main__ - INFO: ===采集第8次数据！
+2025-07-01 16:02:05 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-59809,6311,-104731,-157773,31654,-44708],"pose":[180466,-246556,366641,-2780,867,2809],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:02:05 - __main__ - INFO: 获取状态：成功，当前位姿为[0.180466, -0.246556, 0.366641, -2.78, 0.867, 2.809]
+2025-07-01 16:02:05 - __main__ - INFO: ===采集第9次数据！
+2025-07-01 16:02:20 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"device":0,"state":"current_trajectory_state","trajectory_connect":0,"trajectory_state":false}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-77117,-24054,-56028,-140383,72277,-59171],"pose":[180151,-348523,402367,-3115,835,2789],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:02:20 - __main__ - INFO: 获取状态：成功，当前位姿为[0.180151, -0.348523, 0.402367, -3.115, 0.835, 2.789]
+2025-07-01 16:02:20 - __main__ - INFO: ===采集第10次数据！
+2025-07-01 16:02:27 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-80807,-23332,-56682,-137397,75908,-103601],"pose":[163076,-345199,405442,-2501,602,-2567],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:02:27 - __main__ - INFO: 获取状态：成功，当前位姿为[0.163076, -0.345199, 0.405442, -2.501, 0.602, -2.567]
+2025-07-01 16:02:27 - __main__ - INFO: ===采集第11次数据！
+2025-07-01 16:02:44 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/1.jpg
+2025-07-01 16:02:44 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/2.jpg
+2025-07-01 16:02:44 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/3.jpg
+2025-07-01 16:02:44 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/4.jpg
+2025-07-01 16:02:45 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/5.jpg
+2025-07-01 16:02:45 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/6.jpg
+2025-07-01 16:02:45 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/7.jpg
+2025-07-01 16:02:45 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/8.jpg
+2025-07-01 16:02:45 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/9.jpg
+2025-07-01 16:02:45 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/10.jpg
+2025-07-01 16:02:45 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/11.jpg
+2025-07-01 16:02:45 - __main__ - INFO: 旋转矩阵是:
+ [[ 0.45187682 -0.89103971 -0.04307643]
+ [ 0.89191065  0.45032202  0.0412974 ]
+ [-0.01739936 -0.05708167  0.99821788]]
+2025-07-01 16:02:45 - __main__ - INFO: 平移向量是:
+ [[ 0.07980152]
+ [-0.02853386]
+ [ 0.02176675]]
+2025-07-01 16:02:45 - __main__ - INFO: 四元数是：
+ [-0.02888301 -0.00753851  0.52345464  0.85153049]
+2025-07-01 16:04:59 - libs.auxiliary - INFO: command:['ping', '-c', '1', '192.168.1.18']
+2025-07-01 16:04:59 - __main__ - INFO: robot_ip:192.168.1.18
+2025-07-01 16:04:59 - __main__ - INFO: response:{"change_work_frame":true,"command":"set_change_work_frame"}
+
+2025-07-01 16:04:59 - __main__ - INFO: 开始手眼标定程序，当前程序版号V1.0.0
+2025-07-01 16:05:20 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-80536,-35599,-62788,-117899,64712,-88459],"pose":[195283,-388123,340504,-3053,1067,2982],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:05:20 - __main__ - INFO: 获取状态：成功，当前位姿为[0.195283, -0.388123, 0.340504, -3.053, 1.067, 2.982]
+2025-07-01 16:05:20 - __main__ - INFO: ===采集第1次数据！
+2025-07-01 16:05:23 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-83398,-15070,-62788,-131436,78961,-62578],"pose":[155082,-308276,435991,3067,931,2749],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:05:23 - __main__ - INFO: 获取状态：成功，当前位姿为[0.155082, -0.308276, 0.435991, 3.067, 0.931, 2.749]
+2025-07-01 16:05:23 - __main__ - INFO: ===采集第2次数据！
+2025-07-01 16:05:26 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-75837,-9886,-62078,-144941,80374,-91584],"pose":[164255,-277796,442358,-2579,563,-2652],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:05:26 - __main__ - INFO: 获取状态：成功，当前位姿为[0.164255, -0.277796, 0.442358, -2.579, 0.563, -2.652]
+2025-07-01 16:05:26 - __main__ - INFO: ===采集第3次数据！
+2025-07-01 16:05:33 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-56277,-14729,-63533,-163644,73958,-41999],"pose":[227571,-262355,394317,-3024,550,2914],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:05:33 - __main__ - INFO: 获取状态：成功，当前位姿为[0.227571, -0.262355, 0.394317, -3.024, 0.55, 2.914]
+2025-07-01 16:05:33 - __main__ - INFO: ===采集第4次数据！
+2025-07-01 16:05:37 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-42901,-7458,-123443,-156134,-7822,-42462],"pose":[232612,-228285,267431,-2650,890,2929],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:05:37 - __main__ - INFO: 获取状态：成功，当前位姿为[0.232612, -0.228285, 0.267431, -2.65, 0.89, 2.929]
+2025-07-01 16:05:37 - __main__ - INFO: ===采集第5次数据！
+2025-07-01 16:05:43 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-32821,-39256,-132273,-163674,-62407,-40443],"pose":[263561,-217783,177358,-2092,838,-2814],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:05:43 - __main__ - INFO: 获取状态：成功，当前位姿为[0.263561, -0.217783, 0.177358, -2.092, 0.838, -2.814]
+2025-07-01 16:05:43 - __main__ - INFO: ===采集第6次数据！
+2025-07-01 16:05:50 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-29601,-70819,-132158,-164154,-102910,-40606],"pose":[250984,-191927,105422,-1790,741,-2509],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:05:50 - __main__ - INFO: 获取状态：成功，当前位姿为[0.250984, -0.191927, 0.105422, -1.79, 0.741, -2.509]
+2025-07-01 16:05:50 - __main__ - INFO: ===采集第7次数据！
+2025-07-01 16:05:56 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-32449,-99147,-103693,-169057,-107659,-52804],"pose":[262153,-201237,-7205,-1670,572,-2373],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:05:56 - __main__ - INFO: 获取状态：成功，当前位姿为[0.262153, -0.201237, -0.007205, -1.67, 0.572, -2.373]
+2025-07-01 16:05:56 - __main__ - INFO: ===采集第8次数据！
+2025-07-01 16:06:04 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-33404,-112017,-81003,-169613,-108399,-52818],"pose":[275383,-214642,-44400,-1452,604,-2258],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:06:04 - __main__ - INFO: 获取状态：成功，当前位姿为[0.275383, -0.214642, -0.0444, -1.452, 0.604, -2.258]
+2025-07-01 16:06:04 - __main__ - INFO: ===采集第9次数据！
+2025-07-01 16:06:13 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-10888,-87592,-120886,-144978,-105790,-36562],"pose":[266208,-141861,44648,-1742,645,-2456],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:06:13 - __main__ - INFO: 获取状态：成功，当前位姿为[0.266208, -0.141861, 0.044648, -1.742, 0.645, -2.456]
+2025-07-01 16:06:13 - __main__ - INFO: ===采集第10次数据！
+2025-07-01 16:06:24 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-9192,-31470,-132518,-136060,-63058,-50494],"pose":[291251,-148149,215331,-1972,848,-2734],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:06:24 - __main__ - INFO: 获取状态：成功，当前位姿为[0.291251, -0.148149, 0.215331, -1.972, 0.848, -2.734]
+2025-07-01 16:06:24 - __main__ - INFO: ===采集第11次数据！
+2025-07-01 16:06:30 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-48404,5071,-111886,-140191,20559,-63075],"pose":[233097,-207990,349461,-2706,947,3084],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:06:30 - __main__ - INFO: 获取状态：成功，当前位姿为[0.233097, -0.20799, 0.349461, -2.706, 0.947, 3.084]
+2025-07-01 16:06:30 - __main__ - INFO: ===采集第12次数据！
+2025-07-01 16:06:35 - __main__ - INFO: response:{"command":"start_drag_teach","drag_teach":true}
+{"command":"stop_drag_teach","drag_teach":true}
+{"arm_state":{"arm_err":0,"joint":[-84668,31823,-90733,-154329,77229,-58591],"pose":[81610,-141558,463516,-2602,731,2975],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-01 16:06:35 - __main__ - INFO: 获取状态：成功，当前位姿为[0.08161, -0.141558, 0.463516, -2.602, 0.731, 2.975]
+2025-07-01 16:06:35 - __main__ - INFO: ===采集第13次数据！
+2025-07-01 16:06:47 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/1.jpg
+2025-07-01 16:06:47 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/2.jpg
+2025-07-01 16:06:47 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/3.jpg
+2025-07-01 16:06:47 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/4.jpg
+2025-07-01 16:06:47 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/5.jpg
+2025-07-01 16:06:47 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/6.jpg
+2025-07-01 16:06:48 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/7.jpg
+2025-07-01 16:06:48 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/8.jpg
+2025-07-01 16:06:48 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/9.jpg
+2025-07-01 16:06:48 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/10.jpg
+2025-07-01 16:06:48 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/11.jpg
+2025-07-01 16:06:48 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/12.jpg
+2025-07-01 16:06:48 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/13.jpg
+2025-07-01 16:06:48 - __main__ - INFO: 旋转矩阵是:
+ [[ 0.48117557 -0.87662293 -0.00151837]
+ [ 0.87607558  0.48093495 -0.03454197]
+ [ 0.03101052  0.01529055  0.99940209]]
+2025-07-01 16:06:48 - __main__ - INFO: 平移向量是:
+ [[ 0.06977678]
+ [-0.0049175 ]
+ [ 0.06375518]]
+2025-07-01 16:06:48 - __main__ - INFO: 四元数是：
+ [ 0.01447858 -0.0094511   0.50923756  0.8604523 ]
+2025-07-01 16:10:18 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/1.jpg
+2025-07-01 16:10:18 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/2.jpg
+2025-07-01 16:10:18 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/3.jpg
+2025-07-01 16:10:18 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/4.jpg
+2025-07-01 16:10:18 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/5.jpg
+2025-07-01 16:10:18 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/6.jpg
+2025-07-01 16:10:18 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/7.jpg
+2025-07-01 16:10:18 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/8.jpg
+2025-07-01 16:10:18 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/9.jpg
+2025-07-01 16:10:18 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/10.jpg
+2025-07-01 16:10:18 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/11.jpg
+2025-07-01 16:10:18 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/12.jpg
+2025-07-01 16:10:19 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data05/13.jpg
+2025-07-01 16:10:19 - __main__ - INFO: 旋转矩阵是:
+ [[ 0.48117557 -0.87662293 -0.00151837]
+ [ 0.87607558  0.48093495 -0.03454197]
+ [ 0.03101052  0.01529055  0.99940209]]
+2025-07-01 16:10:19 - __main__ - INFO: 平移向量是:
+ [[ 0.06977678]
+ [-0.0049175 ]
+ [ 0.06375518]]
+2025-07-01 16:10:19 - __main__ - INFO: 四元数是：
+ [ 0.01447858 -0.0094511   0.50923756  0.8604523 ]
+2025-07-01 16:10:46 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/1.jpg
+2025-07-01 16:10:46 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/2.jpg
+2025-07-01 16:10:46 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/3.jpg
+2025-07-01 16:10:46 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/4.jpg
+2025-07-01 16:10:46 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/5.jpg
+2025-07-01 16:10:46 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/6.jpg
+2025-07-01 16:10:46 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/7.jpg
+2025-07-01 16:10:46 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/8.jpg
+2025-07-01 16:10:46 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/9.jpg
+2025-07-01 16:10:46 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/10.jpg
+2025-07-01 16:10:46 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/11.jpg
+2025-07-01 16:10:46 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/12.jpg
+2025-07-01 16:10:46 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/13.jpg
+2025-07-01 16:10:46 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/14.jpg
+2025-07-01 16:10:46 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/15.jpg
+2025-07-01 16:10:46 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/16.jpg
+2025-07-01 16:10:47 - __main__ - INFO: 读 /home/hh/realman_robotic_arm/src/rm_robot_control/hand_eye_calibration/eye_hand_data/data03/17.jpg
+2025-07-01 16:10:47 - __main__ - INFO: 旋转矩阵是:
+ [[ 0.50117048 -0.8653173   0.00735686]
+ [ 0.86448334  0.5002712  -0.04896208]
+ [ 0.03868731  0.03089823  0.99877354]]
+2025-07-01 16:10:47 - __main__ - INFO: 平移向量是:
+ [[ 0.08335923]
+ [-0.0377595 ]
+ [ 0.02720036]]
+2025-07-01 16:10:47 - __main__ - INFO: 四元数是：
+ [ 0.02305286 -0.009044    0.49933252  0.86605647]

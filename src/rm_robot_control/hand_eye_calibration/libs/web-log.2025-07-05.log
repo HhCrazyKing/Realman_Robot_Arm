@@ -1,0 +1,26 @@
+2025-07-05 15:16:48 - libs.auxiliary - INFO: command:['ping', '-c', '1', '192.168.1.18']
+2025-07-05 15:18:21 - libs.auxiliary - INFO: command:['ping', '-c', '1', '192.168.1.18']
+2025-07-05 15:18:24 - libs.auxiliary - INFO: command:['ping', '-c', '1', '192.168.10.18']
+2025-07-05 15:18:34 - __main__ - INFO: robot_ip:False
+2025-07-05 15:19:30 - libs.auxiliary - INFO: command:['ping', '-c', '1', '192.168.1.18']
+2025-07-05 15:19:33 - libs.auxiliary - INFO: command:['ping', '-c', '1', '192.168.10.18']
+2025-07-05 15:19:43 - libs.auxiliary - INFO: command:['ping', '-c', '1', '192.168.1.19']
+2025-07-05 15:19:43 - __main__ - INFO: robot_ip:192.168.1.19
+2025-07-05 15:19:43 - __main__ - INFO: response:{"change_work_frame":true,"command":"set_change_work_frame"}
+
+2025-07-05 15:19:58 - __main__ - ERROR: 相机连接异常：No device connected
+2025-07-05 15:20:45 - libs.auxiliary - INFO: command:['ping', '-c', '1', '192.168.1.18']
+2025-07-05 15:20:48 - libs.auxiliary - INFO: command:['ping', '-c', '1', '192.168.10.18']
+2025-07-05 15:20:51 - libs.auxiliary - INFO: command:['ping', '-c', '1', '192.168.1.19']
+2025-07-05 15:20:51 - __main__ - INFO: robot_ip:192.168.1.19
+2025-07-05 15:20:52 - __main__ - INFO: response:{"change_work_frame":true,"command":"set_change_work_frame"}
+
+2025-07-05 15:20:52 - __main__ - INFO: 开始手眼标定程序，当前程序版号V1.0.0
+2025-07-05 15:20:54 - __main__ - INFO: response:{"arm_state":{"arm_err":0,"joint":[54525,-118866,7406,72453,32564,-7116],"pose":[389835,404485,14722,-1758,-570,-1063],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-05 15:20:54 - __main__ - INFO: 获取状态：成功，当前位姿为[0.389835, 0.404485, 0.014722, -1.758, -0.57, -1.063]
+2025-07-05 15:20:54 - __main__ - INFO: ===采集第1次数据！
+2025-07-05 15:21:03 - __main__ - INFO: response:{"arm_state":{"arm_err":0,"joint":[54523,-118867,7407,72454,32566,-7115],"pose":[389845,404469,14716,-1758,-570,-1063],"sys_err":0},"state":"current_arm_state"}
+
+2025-07-05 15:21:03 - __main__ - INFO: 获取状态：成功，当前位姿为[0.389845, 0.404469, 0.014716, -1.758, -0.57, -1.063]
+2025-07-05 15:21:03 - __main__ - INFO: ===采集第2次数据！
