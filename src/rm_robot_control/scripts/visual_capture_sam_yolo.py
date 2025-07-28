@@ -21,6 +21,59 @@ def toHTM(rot):
     
     return rot_HTM
 
+def capture(obj, gripper_pose):
+    # 夹爪与物体中心点对齐
+    pose_xyz = obj['XYZ']
+    # T_camera_obj_xyz[0:3, 3] = [0, pose_xyz[1] - T_arm_camera[0, 3], -pose_xyz[0] - T_arm_camera[2, 3]]   # 机械臂在正前方，相机朝向正前方
+    T_arm_obj_xyz[0:3, 3] = [0, -pose_xyz[1] + T_arm_camera[0, 3], pose_xyz[0] + T_arm_camera[1, 3]]   # 机械臂在正后方，相机朝向正后方
+    T_base_obj_xyz = T_arm_obj_xyz @ T_init_arm
+    pose_base_obj_xyz = robot_controller.matrix2pos(T_base_obj_xyz, 1)
+    robot_controller.movej_p(pose_base_obj_xyz)
+    # 夹爪与物体朝向对齐
+    theta = obj['theta']
+    rot = R.from_euler('z', np.deg2rad(theta)).as_matrix()
+    T_arm_obj_rpy[0:3, 0:3] = rot
+    T_base_obj_rpy = T_base_obj_xyz @ T_arm_obj_rpy
+    pose_base_obj_rpy = robot_controller.matrix2pos(T_base_obj_rpy, 1)
+    robot_controller.movej_p(pose_base_obj_rpy)
+    # 向下移动夹爪并抓取物体
+    pose_base_grapper_down = pose_base_obj_rpy.copy()
+    down_distance = pose_xyz[2] - 0.225
+    pose_base_grapper_down[0] += down_distance
+    robot_controller.movej_p(pose_base_grapper_down)
+    gripper.set_position(gripper_pose)
+    time.sleep(1.5)
+    # 抬起夹爪
+    pose_base_grapper_up = pose_base_grapper_down.copy()
+    up = 0.20
+    pose_base_grapper_up[0] -= up
+    robot_controller.movej_p(pose_base_grapper_up)
+
+def input_target_labels():
+    while True:
+        input_str = input("请输入目标物体名称列表 (例如: cell phone, cup, book): ")
+        target_labels = [s.strip().lower() for s in input_str.split(',') if s.strip()]
+        # 找出未匹配到的标签
+        unmatched = [label for label in target_labels if label not in label_to_object]
+        if unmatched:
+            print(f"⚠️ 以下物体未在当前视野中识别到：{', '.join(unmatched)}")
+            print("请重新输入完整的物体列表（所有目标必须存在）")
+        elif not target_labels:
+            print("⚠️ 输入为空，请重新输入。")
+        else:
+            break
+    
+    return target_labels
+
+def input_specified_location(prompt_msg="请输入指定放置位置（例如: book): "):
+    while True:
+        label = input(prompt_msg).strip().lower()
+        if label not in label_to_object:
+            print(f"⚠️ 物体 “{label}” 不在当前识别列表中，请重新输入。")
+        else:
+            return label
+
+
 if __name__ == '__main__':
 
     # 垂直抓取流程：机械臂当前位姿 -> 相机Z轴竖直向下, X-Y平面与桌面平行 -> 夹爪与物体中心点对齐, X轴平行/垂直于物体 -> 抓取物体
@@ -77,55 +130,23 @@ if __name__ == '__main__':
     all_object_info, vis_image = model.identification_segmentation(depth_intri=depth_intri, depth_frame=depth_frame, yolo=yolo, predictor=predictor)
     
     "-------------------------- 夹爪与物体中心点对齐, X轴平行/垂直于物体 --------------------------"
-    # 变量初始化
-    T_camera_obj_xyz = np.eye(4)
-    T_camera_obj_rpy = np.eye(4)
+     # 变量初始化
+    T_arm_obj_xyz = np.eye(4)
+    T_arm_obj_rpy = np.eye(4)
     # 创建一个字典，方便快速查找
     label_to_object = {obj['label'].lower(): obj for obj in all_object_info}
     # 允许用户输入多个目标标签，用逗号分隔
-    while True:
-        input_str = input("请输入目标物体名称列表 (例如: cell phone, cup, book): ")
-        target_labels = [s.strip().lower() for s in input_str.split(',') if s.strip()]
-        # 找出未匹配到的标签
-        unmatched = [label for label in target_labels if label not in label_to_object]
-        if unmatched:
-            print(f"⚠️ 以下物体未在当前视野中识别到：{', '.join(unmatched)}")
-            print("请重新输入完整的物体列表（所有目标必须存在）")
-        elif not target_labels:
-            print("⚠️ 输入为空，请重新输入。")
-        else:
-            break
+    target_labels = input_target_labels()
+    specified_location = input_specified_location()
     # 遍历目标标签，按顺序执行移动操作
     for target_label in target_labels:
-        obj = label_to_object[target_label]
+        # 抓取指定物体
         print(f"正在处理物体：{target_label}")
-        # 夹爪与物体中心点对齐
-        pose_xyz = obj['XYZ']
-        # T_camera_obj_xyz[0:3, 3] = [0, pose_xyz[1] - T_arm_camera[0, 3], -pose_xyz[0] - T_arm_camera[2, 3]]   # 机械臂在正前方，相机朝向正前方
-        T_camera_obj_xyz[0:3, 3] = [0, -pose_xyz[1] + T_arm_camera[0, 3], pose_xyz[0] + T_arm_camera[1, 3]]   # 机械臂在正后方，相机朝向正后方
-        T_base_obj_xyz = T_camera_obj_xyz @ T_init_arm
-        pose_base_obj_xyz = robot_controller.matrix2pos(T_base_obj_xyz, 1)
-        robot_controller.movej_p(pose_base_obj_xyz)
-        # 夹爪与物体朝向对齐
-        theta = obj['theta']
-        euler_angles = obj['euler_angles']
-        rot = R.from_euler('z', np.deg2rad(theta)).as_matrix()
-        T_camera_obj_rpy[0:3, 0:3] = rot
-        T_base_obj_rpy = T_base_obj_xyz @ T_camera_obj_rpy
-        pose_base_obj_rpy = robot_controller.matrix2pos(T_base_obj_rpy, 1)
-        robot_controller.movej_p(pose_base_obj_rpy)
-        # 向下移动夹爪并抓取物体
-        pose_base_grapper_down = pose_base_obj_rpy.copy()
-        down_distance = pose_xyz[2] - 0.2
-        pose_base_grapper_down[0] += down_distance
-        robot_controller.movej_p(pose_base_grapper_down)
-        time.sleep(1)
-        gripper.set_position(5000)
-        time.sleep(3)
-        # 抬起夹爪并将物体放置在指定位置
-        pose_base_grapper_up = pose_base_grapper_down.copy()
-        pose_base_grapper_up[0] -= 0.20
-        robot_controller.movej_p(pose_base_grapper_up)
+        target = label_to_object[target_label]
+        capture(target, 9000)
+        # 将物体放置在指定位置
+        location = label_to_object[specified_location]
+        capture(location, 0)
 
         time.sleep(1)
 

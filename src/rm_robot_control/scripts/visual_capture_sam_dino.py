@@ -140,6 +140,7 @@ if __name__ == '__main__':
     # 遍历目标标签，按顺序执行移动操作
     for target_label in target_labels:
         # 抓取指定物体
+        print(f"正在处理物体：{target_label}")
         target = label_to_object[target_label]
         capture(target, 9000)
         # 将物体放置在指定位置
