@@ -1,7 +1,6 @@
 build/
 devel/
 src/rm_robot_ros
-src/rm_reference_code
 src/rm_robot_control/model
 src/rm_robot_control/pictures
 .vscode/*
