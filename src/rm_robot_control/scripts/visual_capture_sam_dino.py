@@ -38,8 +38,12 @@ def capture(obj, gripper_pose):
     robot_controller.movej_p(pose_base_obj_rpy)
     # 向下移动夹爪并抓取物体
     pose_base_grapper_down = pose_base_obj_rpy.copy()
-    down_distance = pose_xyz[2] - 0.225
-    pose_base_grapper_down[0] += down_distance
+    down = pose_xyz[2] - 0.225
+    pose_base_grapper_down[0] += down
+    pose_base_grapper_down[0] = 0.421 if pose_base_grapper_down[0] > 0.422 else pose_base_grapper_down[0]
+    print(f"抓取物体 {obj['label']} 的位姿: {pose_base_grapper_down}")
+    pose_base_grapper_down[0] = pose_base_grapper_down[0] if obj['label'] != 'box 1' else pose_base_grapper_down[0]-0.01
+    print(f"抓取物体 {obj['label']} 的位姿: {pose_base_grapper_down}")
     robot_controller.movej_p(pose_base_grapper_down)
     gripper.set_position(gripper_pose)
     time.sleep(1.5)

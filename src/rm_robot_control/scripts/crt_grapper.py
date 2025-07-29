@@ -138,8 +138,8 @@ def grapper_tactile_sensor_control():
         print("[系统] 停止串口读取")
         reader.stop()
 
-if __name__ == '__main__':
-    pose = 9000
-    grapper(pose)
-    time.sleep(3)
-    grapper_tactile_sensor_control()
+# if __name__ == '__main__':
+#     pose = 9000
+#     grapper(pose)
+#     time.sleep(3)
+#     grapper_tactile_sensor_control()
